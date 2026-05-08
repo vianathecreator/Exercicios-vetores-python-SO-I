@@ -4,7 +4,7 @@ soma=0
 contador=0
 
 def coletavalores():
-    for i in range(5):
+    for i in range(100):
         numero=int(input(f"Digite o {i+1}o número: "))
         vet_int.append(numero)
 
